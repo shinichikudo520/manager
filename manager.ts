@@ -46,4 +46,8 @@ export default abstract class Manager<T> {
     this.addList.clear();
     this.delList.clear();
   }
+
+  count() {
+    return this.map.size;
+  }
 }
